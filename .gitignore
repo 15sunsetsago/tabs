@@ -2,13 +2,19 @@
 __pycache__/
 *.py[cod]
 *.pyo
+.env
 
-# Virtual environment
+# Venv
 .venv/
 
 # Flask
 instance/
 *.db
+migrations/__pycache__/
+
+# Node
+node_modules/
+dist/
 
 # VS Code
 .vscode/
